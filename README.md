@@ -6,6 +6,7 @@ For the design, I've used Strategy, Chain of Responsibility & Singleton design p
 For the implementation, I've used Maven & java 11.
 
 #Design details
+
 With the help of Strategy pattern, it is easier to implement a new writer, say SocketWriter in future.
 Chain of Responsibility pattern will help to implement more future features and clients can use various combinations in order with ease.
 SIngleton pattern ensures that there is only one instance of the Writer object and a long running writer thread can be interfered in another thread(using open & close methods).
